@@ -1,3 +1,6 @@
+
+<h1 style="color:red">Importante! la opcion de bajar pdf se encuentra deshabilitada en Produccion debido al que deploy esta en heroku version prueba y no en version de pago, pero es posible si se descarga el proyecto desde github de correrlo en ambiente de desarrollo y lo hara de forma perfecta</h1>
+
 <h1>Proyecto Magic64 para pasaje de texto a base64 y viceversa</h1>
 
 <h2><u><strong>Front end utilizado</strong></u></h2>
