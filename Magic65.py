@@ -44,8 +44,8 @@ trainer = ListTrainer(chatbot)
 # trainer.train(ds.conversationQuerer)
 # trainer.train(ds.conversationHerramientasPuedo)
 # trainer.train(ds.conversationHerramientasTotal)
-trainer.train(ds.conversationBase)
-trainer.train(ds.conversationCvCorto)
+# trainer.train(ds.conversationBase)
+# trainer.train(ds.conversationCvCorto)
 @app.route("/", methods=["GET", "POST"])
 @app.route("/home", methods=["GET", "POST"])
 def home():
@@ -79,7 +79,7 @@ def portfolio():
 
 @app.route('/download', methods=["GET", "POST"])
 def download_file():
-    filename = r"Flask Upload Files\Base64 Guia.pdf"
+    filename = r"..\Flask Upload Files\Base64 Guia.pdf"
     return send_file(filename, as_attachment=True)
 
 @app.route('/process',methods=['POST'])
