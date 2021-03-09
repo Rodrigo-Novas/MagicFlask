@@ -36,6 +36,11 @@ conversationCv=[
     "En la parte de herramientas podes ver mi portfolio"
 ]
 
+conversationCvCorto=[
+    "Cv",
+    "En la parte de herramientas podes ver mi portfolio"
+]
+
 conversationPdf=[
     "pdf",
     "En la parte de herramientas podes descargar la guia de python para BASE64"
@@ -55,4 +60,9 @@ conversationQuerer=[
 conversationQuererMinus=[
     "te quiero",
     "Yo mas"
+]
+
+conversationBase=[
+    "base 64",
+    "En la parte de herramientas podes descargar la guia de python para BASE64 y el conversor"
 ]

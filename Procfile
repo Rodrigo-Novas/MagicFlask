@@ -1,0 +1,1 @@
+web gunicorn Magic65:app

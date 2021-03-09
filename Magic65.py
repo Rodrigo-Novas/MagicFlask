@@ -44,8 +44,8 @@ trainer = ListTrainer(chatbot)
 # trainer.train(ds.conversationQuerer)
 # trainer.train(ds.conversationHerramientasPuedo)
 # trainer.train(ds.conversationHerramientasTotal)
-# trainer.train(ds.conversationQuererMinus)
-# trainer.train(ds.conversationAmorMayus)
+trainer.train(ds.conversationBase)
+trainer.train(ds.conversationCvCorto)
 @app.route("/", methods=["GET", "POST"])
 @app.route("/home", methods=["GET", "POST"])
 def home():
@@ -89,6 +89,8 @@ def process():
     bot_response=str(bot_response)
     app.logger.info("Riuriuk: "+bot_response)
     return render_template('Magic64.html',user_input=user_input,bot_response=bot_response)
+
+
 
 
 if __name__ == "__main__":
