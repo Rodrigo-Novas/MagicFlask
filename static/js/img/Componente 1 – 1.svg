@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="390" height="493" viewBox="0 0 390 493">
+  <g id="Componente_1_1" data-name="Componente 1 – 1" transform="translate(1 1)">
+    <g id="Rectángulo_1" data-name="Rectángulo 1" transform="translate(0 99.5)" fill="#464242" stroke="#707070" stroke-linejoin="round" stroke-width="1">
+      <rect width="388" height="328" rx="100" stroke="none"/>
+      <rect x="-0.5" y="-0.5" width="389" height="329" rx="100.5" fill="none"/>
+    </g>
+    <text id="F" transform="translate(123 398)" fill="#707070" stroke="#d8c8c8" stroke-width="1" font-size="369" font-family="SegoeUI, Segoe UI" opacity="0.84"><tspan x="0" y="0">F</tspan></text>
+  </g>
+</svg>
