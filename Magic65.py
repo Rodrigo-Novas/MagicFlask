@@ -79,7 +79,7 @@ def portfolio():
 
 @app.route('/download', methods=["GET", "POST"])
 def download_file():
-    filename = r"..\Flask Upload Files\Base64 Guia.pdf"
+    filename = r"/app/Flask Upload Files/Guia.pdf"
     return send_file(filename, as_attachment=True)
 
 @app.route('/process',methods=['POST'])
